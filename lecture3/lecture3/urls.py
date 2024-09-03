@@ -20,6 +20,7 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("hello/", include("hello.urls")),
-    path("task/", include("task.urls"))
+    path("task/", include("task.urls")),
+    path("newyear/",include("newyear.urls"))
 ]
 # Add my own route, add the hello app. include all the urls from hello.urls
