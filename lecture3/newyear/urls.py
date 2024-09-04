@@ -4,6 +4,4 @@ from . import views
 # A list of all urls that can be accessed to this particular hellop app
 # When "" is visited, the views.index function will be called.
 # Give a name to a path can be useful
-urlpatterns = [
-    path("", views.index, name="index")
-]
+urlpatterns = [path("", views.index, name="index")]
